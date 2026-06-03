@@ -171,9 +171,9 @@ print("_" * 50)
 
 # issuperset()
 
-Dental_Unit = {"Suction System", "Dental Light", "Intraoral X-Ray)", "Intraoral Camera", "Apex Locator"}
+Dental_Unit = {"Suction System", "Dental Light", "Intraoral X-Ray", "Intraoral Camera", "Apex Locator"}
 Horus = {"Intraoral Camera", "Apex Locator", "Dental Light"}
-Safe = {"Suction System", "Dental Light", "Intraoral X-Ray)", "Intraoral Camera", "Apex Locator", "Panoramic Dental X-Ray"}
+Safe = {"Suction System", "Dental Light", "Intraoral X-Ray", "Intraoral Camera", "Apex Locator", "Panoramic Dental X-Ray"}
 print(Dental_Unit.issuperset(Horus))          # True
 print(Dental_Unit.issuperset(Safe))           # False
 
